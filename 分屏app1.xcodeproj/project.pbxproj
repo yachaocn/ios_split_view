@@ -15,6 +15,8 @@
 		676B37CC1C06E22A00695D47 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 676B37CA1C06E22A00695D47 /* LaunchScreen.storyboard */; };
 		676B37D71C06E22A00695D47 /* __app1Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 676B37D61C06E22A00695D47 /* __app1Tests.m */; };
 		676B37E21C06E22A00695D47 /* __app1UITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 676B37E11C06E22A00695D47 /* __app1UITests.m */; };
+		676B37F11C06E31300695D47 /* app1.png in Resources */ = {isa = PBXBuildFile; fileRef = 676B37EF1C06E31300695D47 /* app1.png */; };
+		676B37F21C06E31300695D47 /* app2.png in Resources */ = {isa = PBXBuildFile; fileRef = 676B37F01C06E31300695D47 /* app2.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +53,8 @@
 		676B37DD1C06E22A00695D47 /* 分屏app1UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "分屏app1UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		676B37E11C06E22A00695D47 /* __app1UITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = __app1UITests.m; sourceTree = "<group>"; };
 		676B37E31C06E22A00695D47 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		676B37EF1C06E31300695D47 /* app1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = app1.png; sourceTree = "<group>"; };
+		676B37F01C06E31300695D47 /* app2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = app2.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,13 +105,15 @@
 		676B37BB1C06E22A00695D47 /* 分屏app1 */ = {
 			isa = PBXGroup;
 			children = (
+				676B37EF1C06E31300695D47 /* app1.png */,
+				676B37F01C06E31300695D47 /* app2.png */,
 				676B37BF1C06E22A00695D47 /* AppDelegate.h */,
 				676B37C01C06E22A00695D47 /* AppDelegate.m */,
 				676B37C21C06E22A00695D47 /* ViewController.h */,
 				676B37C31C06E22A00695D47 /* ViewController.m */,
+				676B37CA1C06E22A00695D47 /* LaunchScreen.storyboard */,
 				676B37C51C06E22A00695D47 /* Main.storyboard */,
 				676B37C81C06E22A00695D47 /* Assets.xcassets */,
-				676B37CA1C06E22A00695D47 /* LaunchScreen.storyboard */,
 				676B37CD1C06E22A00695D47 /* Info.plist */,
 				676B37BC1C06E22A00695D47 /* Supporting Files */,
 			);
@@ -244,6 +250,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				676B37CC1C06E22A00695D47 /* LaunchScreen.storyboard in Resources */,
+				676B37F21C06E31300695D47 /* app2.png in Resources */,
+				676B37F11C06E31300695D47 /* app1.png in Resources */,
 				676B37C91C06E22A00695D47 /* Assets.xcassets in Resources */,
 				676B37C71C06E22A00695D47 /* Main.storyboard in Resources */,
 			);
