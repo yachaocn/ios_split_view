@@ -16,11 +16,14 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    
+//    1.你的app必须使用autolayout，sise class布局，
+//    2.你必须有一个LaunchScreen.storyboard
+//    3.info.plist中UIRequiresFullScreen键必须为NO,(此键是自己添加的，意思为请求全屏权限)，用xcode7创建的项目默认是不包含此键的，也就是说xcode7创建的项目默认是支持分屏的。
+//    4.谢谢
     
     // Do any additional setup after loading the view, typically from a nib.
 }
-
+//以下方法不必实现
 #pragma mark -  UITraitEnvironment protocl
 - (void)traitCollectionDidChange:(nullable UITraitCollection *)previousTraitCollection
 {
